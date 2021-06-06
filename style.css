@@ -150,7 +150,7 @@ a {
     text-align: center;
 }
 
-.main-content .services {
+.hero__content .services {
     display: flex;
     justify-content: space-between;
     margin-top: 233px;
@@ -234,7 +234,7 @@ a {
     cursor: pointer;
 }
 
-.main-content .news_and_promo {
+.hero__content .news_and_promo {
     margin-top: 180px;
 }
 
@@ -339,7 +339,7 @@ a {
     margin: 0 1.9px 0;
 }
 
-.main-content .about-us {
+.hero__content .about-us {
     margin-top: 221px;
     position: relative;
     height: 559px;

@@ -25,21 +25,19 @@ a {
 }
 
 .container {
-    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
 
-.header {
+.header .container {
     display: flex;
     justify-content: space-between;
-    max-height: 129px;
-
-
+    min-height: 129px;
 }
 
+
 .container .menu {
-    margin-top: 21px;
+    margin-top: 19px;
 }
 
 .menu .menu__list {
@@ -67,8 +65,12 @@ a {
     color: #DA0100;
 }
 
+.menu__item_active .menu__link {
+    color: #DA0100;
+}
+
 .header .contacts {
-    margin: 5px 0 0;
+    margin: 6px 0 0;
 }
 
 .contacts .contacts__phone {
@@ -85,6 +87,7 @@ a {
     font-weight: normal;
     font-size: 13px;
     text-align: right;
+    margin-top: -7px;
 }
 
 .contacts .contacts__dropdown-title:hover {
@@ -123,13 +126,16 @@ a {
     text-transform: uppercase;
     display: block;
     text-align: center;
-    margin: 43.5px auto 0;
+    margin: 44px auto 0;
     width: 195px;
-    height: 55px;
+    min-height: 55px;
     border: 18px solid #FF3D00;
     background: #FF3D00;
     border-radius: 35px;
     color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
 }
 
 .main__btn-info:hover {
@@ -150,17 +156,18 @@ a {
     text-align: center;
 }
 
-.hero__content .services {
+.services {
     display: flex;
     justify-content: space-between;
     margin-top: 233px;
 }
 
 .services .services__block {
-    max-width: 362px;
-    max-height: 476px;
+    width: 362px;
+    min-height: 476px;
     background: #FFFFFF;
-    padding: 36px 34px 53px 22px;
+    padding: 35px 34px 43px 22px;
+    border-radius: 5px;
 }
 
 .services .services__block:nth-child(2) {
@@ -215,7 +222,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 198px;
-    height: 55px;
+    min-height: 55px;
     margin-top: 29px;
     background: #fff;
     border-radius: 35px;
@@ -234,7 +241,7 @@ a {
     cursor: pointer;
 }
 
-.hero__content .news_and_promo {
+.news_and_promo {
     margin-top: 180px;
 }
 
@@ -253,14 +260,21 @@ a {
     color: #FFFFFF;
 }
 
-.news_and_promo .nap__promo {
+.nap__promo-blocks .nap__promo {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: url(./img/nap/camera.jpg) center/cover no-repeat;
     max-width: 557px;
-    height: 394px;
+    min-height: 394px;
     padding: 0 83px 26px 30px;
+}
+
+.nap__promo-blocks .camera {
+    background: url(./img/nap/camera.jpg) center/cover no-repeat;
+}
+
+.nap__promo-blocks .wedding {
+    background: url(./img/nap/wedding.jpg) center/cover no-repeat;
 }
 
 .nap__promo .nap__date {
@@ -296,11 +310,12 @@ a {
 .paginator .paginator__list {
     display: flex;
     justify-content: space-around;
+    min-width: 236px;
 }
 
 .paginator .paginator__display {
     display: flex;
-    margin-right: 24px;
+    margin-right: 25px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -327,7 +342,7 @@ a {
 .paginator__list .paginator__item:hover {
     cursor: pointer;
     width: 32px;
-    height: 32px;
+    min-height: 32px;
     align-self: center;
     border: 16px solid #FF5500;
     border-radius: 100%;
@@ -335,21 +350,30 @@ a {
     justify-content: center;
 }
 
+.paginator__list .paginator__item_active {
+    border: 16px solid #FF5500;
+    border-radius: 100%;
+}
+
+.paginator__list .paginator__item_active:hover {
+    cursor: default;
+}
+
 .paginator__list .paginator__item:nth-child(2n) {
     margin: 0 1.9px 0;
 }
 
-.hero__content .about-us {
+.about-us {
     margin-top: 221px;
     position: relative;
-    height: 559px;
+    min-height: 559px;
 }
 
 .about-us .about-us__block {
     position: absolute;
-    padding: 70px 206px 66px 78.5px;
+    padding: 71px 206px 66px 79px;
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     background: #FFFFFF;
     border-radius: 5px;
     z-index: 2;
@@ -381,7 +405,7 @@ a {
     align-items: center;
     margin-top: 44px;
     width: 168px;
-    height: 55px;
+    min-height: 55px;
     background: #FF5400;
     border-radius: 35px;
     font-style: normal;
@@ -404,11 +428,11 @@ a {
     z-index: 1;
 }
 
-.footer {
+.footer .container {
     margin-top: 16px;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .footer .footer__menu_list {
@@ -479,4 +503,8 @@ a {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: flex-end;
+}
+
+main {
+    min-height: calc(100vh - 80px);
 }

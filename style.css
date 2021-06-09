@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.mane-page-wrapper {
+    background: url(./img/bg_head.jpg) center top/contain no-repeat, url(./img/bg_bottom.jpg) center bottom 306px no-repeat;
+}
+
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     background-color: #17191C;

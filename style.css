@@ -8,6 +8,10 @@
     background: url(./img/bg_head.jpg) center top/contain no-repeat, url(./img/bg_bottom.jpg) center bottom 306px no-repeat;
 }
 
+.services-page-wrapper {
+    background: url(./img/services__page/bg.jpg) center top no-repeat;
+}
+
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     background-color: #17191C;
@@ -15,8 +19,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul {
+ul, ol {
     list-style-type: none;
+    text-decoration: none;
+    
 }
 
 ul li,
@@ -25,7 +31,7 @@ a {
 }
 
 .wrapper {
-    margin: 21px 0 57px;
+    padding: 21px 0 57px;
 }
 
 .container {

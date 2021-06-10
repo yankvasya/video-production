@@ -1,0 +1,59 @@
+.news_and_promo {
+    margin-top: 180px;
+}
+
+.news_and_promo .nap__promo-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+
+.news_and_promo .nap__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nap__promo-blocks .nap__promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 557px;
+    min-height: 394px;
+    padding: 0 83px 16px 30px;
+}
+
+.nap__promo-blocks .camera {
+    background: url(/img/nap/camera.jpg) center/cover no-repeat;
+}
+
+.nap__promo-blocks .wedding {
+    background: url(/img/nap/wedding.jpg) center/cover no-repeat;
+}
+
+.nap__promo .nap__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nap__promo .nap__promo-title {
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.nap__promo .nap__info {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

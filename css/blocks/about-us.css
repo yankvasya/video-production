@@ -1,0 +1,64 @@
+.about-us {
+    margin-top: 221px;
+    position: relative;
+    min-height: 559px;
+}
+
+.about-us .about-us__block {
+    position: absolute;
+    padding: 71px 206px 66px 79px;
+    width: 785px;
+    min-height: 455px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    z-index: 2;
+    right: 0;
+    top: 20px;
+}
+
+.about-us__block .about-us__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-us__block .about-us__text {
+    margin-top: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #060606;
+}
+
+.about-us__block .about-us__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+    width: 168px;
+    min-height: 55px;
+    background: #FF5400;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px;
+}
+
+.about-us__block .about-us__btn:hover {
+    cursor: pointer;
+    background-color: #DA0100;
+}
+
+.about-us .about-us__img {
+    position: absolute;
+    top: -76px;
+    z-index: 1;
+}

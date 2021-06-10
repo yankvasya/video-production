@@ -1,0 +1,52 @@
+.header .contacts {
+    margin: 10px 0 0;
+}
+
+.contacts .contacts__phone {
+    color: #FFFFFF;
+    font-size: 26px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contacts .contacts__dropdown-title {
+    color: #FFF;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: right;
+    margin-top: -2px;
+}
+
+.contacts .contacts__dropdown-title:hover {
+    color: #FF3D00;
+    cursor: pointer;
+}
+
+.footer__contacts .footer__contacts_info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer__contacts .contacts__phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 6.5px;
+}
+
+.footer .footer__contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-end;
+}

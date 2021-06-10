@@ -1,0 +1,86 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 233px;
+}
+
+.services .services__block {
+    width: 362px;
+    min-height: 476px;
+    background: #FFFFFF;
+    padding: 35px 34px 43px 22px;
+    border-radius: 5px;
+}
+
+.services .services__block:nth-child(2) {
+    border: 5px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.services div span {
+    font-weight: bold;
+    color: #000000;
+}
+
+.services__block .services__title {
+    margin-top: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.services__block .services__peoples {
+    max-width: 102px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #666666;
+}
+
+.services__block .services__days {
+    max-width: 123px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #666666;
+}
+
+.services__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.services__main-text {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.services__more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 198px;
+    min-height: 55px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 35px;
+    border: 2px solid #FF5500;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FF5500;
+}
+
+.services__more-info:hover {
+    background: #FF5500;
+    color: #FFF;
+    cursor: pointer;
+}

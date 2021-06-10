@@ -1,0 +1,60 @@
+.head__main {
+    margin: 79px auto 0;
+}
+
+.head__main .main__title {
+    max-width: 776px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head__main .main__info {
+    margin-top: 17.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.head__main .main__btn-info {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: 44px auto 0;
+    width: 195px;
+    min-height: 55px;
+    border: 18px solid #FF3D00;
+    background: #FF3D00;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.main__btn-info:hover {
+    cursor: pointer;
+    background: #DA0100;
+    border: 18px solid #DA0100;
+}
+
+.main__btn-info a {
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}

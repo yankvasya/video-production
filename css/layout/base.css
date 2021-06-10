@@ -9,6 +9,7 @@ body {
     background-color: #17191C;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 .wrapper {

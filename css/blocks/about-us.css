@@ -7,7 +7,7 @@
 .about-us .about-us__block {
     position: absolute;
     padding: 71px 206px 66px 79px;
-    width: 785px;
+    max-width: 785px;
     min-height: 455px;
     background: #FFFFFF;
     border-radius: 5px;

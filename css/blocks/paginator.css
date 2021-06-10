@@ -1,24 +1,27 @@
 .news_and_promo .paginator {
     margin-top: 53px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .paginator .paginator__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     min-width: 236px;
+    flex: 1;
 }
 
 .paginator .paginator__display {
     display: flex;
-    margin-right: 20px;
+    margin-right: 25px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
     align-items: center;
+    flex: 0.827;
+    justify-content: flex-end;
 }
 
 .paginator__list .paginator__item {

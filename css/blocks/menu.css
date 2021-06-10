@@ -1,5 +1,6 @@
 .container .menu {
     margin-top: 21px;
+    margin-right: 4px;
 }
 
 .menu .menu__list {
@@ -43,11 +44,13 @@
 }
 
 .footer .footer__logo {
-    margin-right: 125px;
+    display: flex;
+    align-self: flex-start;
 }
 
 .footer .footer__menu {
-    margin: 6px 110px 0 0;
+    display: flex;
+    margin-left: 60px;
 }
 
 .footer__menu_list .menu_item .menu__link {

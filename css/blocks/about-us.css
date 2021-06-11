@@ -1,19 +1,21 @@
+.about-us--section {
+    margin-top: 145px;
+    margin-bottom: 92px;
+}
+
 .about-us {
-    margin-top: 221px;
-    position: relative;
     min-height: 559px;
+    display: flex;
 }
 
 .about-us .about-us__block {
-    position: absolute;
+    margin-top: 96px;
+    margin-left: -135px;
     padding: 71px 206px 66px 79px;
-    max-width: 785px;
+    min-width: 785px;
     min-height: 455px;
     background: #FFFFFF;
     border-radius: 5px;
-    z-index: 2;
-    right: 0;
-    top: 20px;
 }
 
 .about-us__block .about-us__title {
@@ -58,7 +60,5 @@
 }
 
 .about-us .about-us__img {
-    position: absolute;
-    top: -76px;
-    z-index: 1;
+    height: 505px;
 }

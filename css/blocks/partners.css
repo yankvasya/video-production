@@ -1,0 +1,11 @@
+.partners {
+    padding: 88px 0 110px;
+    background: #E5E5E5;
+}
+
+.partners__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+}

@@ -61,7 +61,7 @@
     color: #666666;
 }
 
-.services__more-info {
+.btn-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@
     color: #FF5500;
 }
 
-.services__more-info:hover {
+.btn-info:hover {
     background: #FF5500;
     color: #FFF;
     cursor: pointer;

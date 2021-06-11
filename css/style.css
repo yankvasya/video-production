@@ -11,4 +11,7 @@
 @import url(./blocks/about-us.css);
 @import url(./blocks/footer.css);
 @import url(./blocks/social.css);
-@import url(./blocks/breadcrumps.css);
+@import url(./blocks/top-line.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/main-services.css);
+@import url(./blocks/partners.css);

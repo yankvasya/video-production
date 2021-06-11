@@ -2,4 +2,5 @@
     display: flex;
     justify-content: space-between;
     min-height: 129px;
+    margin-top: 21px;
 }

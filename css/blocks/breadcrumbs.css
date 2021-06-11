@@ -4,8 +4,9 @@
     text-align: center;
 }
 
-.breadcrumbs .breadcrumbs__item--active {
+.breadcrumbs .breadcrumbs__item--active a {
     font-weight: bold;
+    cursor: default;
 }
 
 .breadcrumbs__item a {

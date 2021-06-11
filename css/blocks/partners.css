@@ -28,3 +28,11 @@
 .partners__blocks .partners__block:first-child {
     margin-top: 0;
 }
+
+.partner__link {
+    filter: grayscale(100%);
+}
+
+.partner__link:hover {
+    filter: grayscale(0);
+}

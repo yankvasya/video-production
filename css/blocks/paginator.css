@@ -4,6 +4,13 @@
     justify-content: space-between;
 }
 
+.main-services .paginator {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
 .paginator .paginator__list {
     display: flex;
     justify-content: flex-start;
@@ -61,4 +68,12 @@
 
 .paginator__list .paginator__item:nth-child(2n) {
     margin: 0 1.9px 0;
+}
+
+.main-services .paginator__item-black {
+    color: #000000;
+}
+
+.main-services .paginator__item-black.paginator__item_active {
+    color: #FFF;
 }

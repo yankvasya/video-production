@@ -15,6 +15,9 @@ body {
 
 .wrapper {
     padding: 21px 0 57px;
+    min-width: 100%;
+    min-height: 100%;
+    min-width: 1200px;
 }
 
 .container {

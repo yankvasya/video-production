@@ -1,0 +1,41 @@
+.welcome {
+    height: 100vh;
+    padding: auto auto;
+    background: url(/img/welcome__page/bg.jpg) center center/cover no-repeat;
+}
+
+.welcome .welcome__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    background: url(/img/welcome__page/rec.png) center center no-repeat;
+}
+
+.welcome__container .welcome__logo {
+    max-height: 147px;
+    max-width: 538px;
+}
+
+.btn-welcome {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 99px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 55px;
+    border-radius: 35px;
+    background: #FF5500;
+    color: #fff;
+}
+
+.btn-welcome:hover {
+    background: #fff;
+    color: #FF5500;
+}

@@ -12,4 +12,13 @@
 
 .social__item .social__link:hover {
     cursor: pointer;
+    /* filter: contrast(197px); */
+}
+
+.social__link img {
+    filter: contrast(150%);
+} 
+
+.social__link:hover img {
+    filter: contrast(1%);
 }

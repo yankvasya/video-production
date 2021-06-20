@@ -2,6 +2,7 @@
     height: 100vh;
     padding: auto auto;
     background: url(/img/welcome__page/bg.jpg) center center/cover no-repeat;
+    overflow:  hidden;
 }
 
 .welcome .welcome__container {
@@ -16,7 +17,7 @@
     align-items: center;
     margin: 0 auto;
     height: 100vh;
-    animation: uprise 2s ease infinite;
+    animation: uprise 2s ease;
     /* transition: cubic-bezier(.15,-0.33,.79,1.28); */
 }
 

@@ -1,5 +1,7 @@
 .footer .container {
-    margin: 45.5px auto 57px;
+    max-height: 132px;
+    padding-bottom: 45px;
+    margin: 45.5px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;

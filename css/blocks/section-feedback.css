@@ -1,0 +1,17 @@
+.section-feedback {
+    background: #F4F5F5;
+}
+
+.section-feedback .container {
+    padding: 79px 0 96px;
+}
+
+.give-feedback--title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202020;
+}
+

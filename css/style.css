@@ -20,4 +20,5 @@
 @import url(./blocks/section-sale.css);
 @import url(./blocks/section-feedback.css);
 @import url(./blocks/form.css);
-@import url(./blocks/hover-transition.css)
+@import url(./blocks/hover-transition.css);
+@import url(./blocks/dropdown.css);

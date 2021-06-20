@@ -5,21 +5,28 @@
 }
 
 .welcome .welcome__container {
+    background: url(/img/welcome__page/rec.png) center center no-repeat;
+    height: 100vh;
+}
+
+.welcome__block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     height: 100vh;
-    background: url(/img/welcome__page/rec.png) center center no-repeat;
+    animation: uprise 2s ease infinite;
+    /* transition: cubic-bezier(.15,-0.33,.79,1.28); */
 }
 
-.welcome__container .welcome__logo {
+.welcome__logo {
     max-height: 147px;
     max-width: 538px;
 }
 
 .btn-welcome {
+
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
@@ -38,4 +45,40 @@
 .btn-welcome:hover {
     background: #fff;
     color: #FF5500;
+}
+
+@keyframes uprise {
+    from {
+        /* transition: cubic-bezier(.15,-0.33,.79,1.28); */ 
+        transform: scale(0.2) rotate(100deg);
+    }
+
+    20% {
+        /* transform: translateY(-30px); */
+        transform: rotate(-15deg)
+    }
+
+    35% {
+        /* transform: translateY(0); */
+        transform: scale(0.92) rotate(5deg)
+    }
+
+    55% {
+        /* transform: translateY(-15px); */
+        transform: rotate(0deg)
+    }
+
+    65% {
+        /* transform: translateY(0); */
+        transform: rotate(0deg)
+    }
+    
+    75% {
+        transform: rotate(0deg)
+    }
+
+    90% {
+        transform: rotate(0deg)
+    }
+
 }

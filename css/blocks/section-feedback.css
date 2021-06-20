@@ -6,11 +6,11 @@
     padding: 79px 0 96px;
 }
 
-.give-feedback--title {
+.give-feedback-title {
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
-    text-align: center;
+    line-height: 49px;
     text-transform: uppercase;
     color: #202020;
 }

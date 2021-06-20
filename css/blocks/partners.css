@@ -1,0 +1,38 @@
+.partners {
+    padding: 88px 0 119px;
+    background: #E5E5E5;
+}
+
+.partners__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+}
+
+.partners__blocks {
+    margin-top: 73px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__blocks .partners__block {
+    margin-top: 70px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.partners__blocks .partners__block:first-child {
+    margin-top: 0;
+}
+
+.partner__link {
+    filter: grayscale(100%);
+}
+
+.partner__link:hover {
+    filter: grayscale(0);
+}

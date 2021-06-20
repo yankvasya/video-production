@@ -1,0 +1,6 @@
+.footer .container {
+    margin: 45.5px auto 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

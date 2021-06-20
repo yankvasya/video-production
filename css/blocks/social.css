@@ -1,0 +1,15 @@
+.footer .social {
+    display: flex;
+}
+
+.social .social__list {
+    margin-left: 41px;
+    display: flex;
+    min-width: 174px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__item .social__link:hover {
+    cursor: pointer;
+}

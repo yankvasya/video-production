@@ -79,3 +79,49 @@
 .controls__item:nth-child(1n+6) {
     margin-bottom: 0;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 198px;
+    min-height: 55px;
+    margin-top: 30px;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+}
+
+.btn--color--grey {
+    border: 2px solid #8E8E8E;
+    color: #FFFFFF;
+    background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+    border: 2px solid #2B2B2B;
+    cursor: pointer;
+    background: #2B2B2B;
+}
+
+.btn--color--orange {
+    border: 2px solid #FF5500;
+    color: #FFF;
+    background: #FF5500;
+    margin-left: 13px;
+}
+
+.btn--color--orange:hover {
+    background: #fff;
+    color: #FF5500;
+    cursor: pointer;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}

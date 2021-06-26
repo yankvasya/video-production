@@ -1,16 +1,16 @@
-a:hover {
+/* a:hover {
     animation: hover-jump 0.2s ease-in;
-}
+} */
 
-button:hover {
-    animation: hover-jump 0.2s ease-in;
-}
+    /* button:hover {
+        animation: hover-jump 0.2s ease-in;
+    } */
 
-.controls__item:hover {
+/* .controls__item:hover {
     animation: hover-jump 0.1s ease-in;
-}
+} */
 
-.menu__item:hover {
+.menu__item--jump:hover {
     animation: hover-jump-title 0.1s ease-in;
 }
 
@@ -18,9 +18,9 @@ button:hover {
     animation: hover-jump-title 0.1s ease-in;
 }
 
-.social__link img:hover {
-    animation: hover-jump 0.2s ease-in;
-}
+/* .social__link img:hover {
+    animation: hover-jump .01s ease-in;
+} */
 
 @keyframes hover-jump {
     from {

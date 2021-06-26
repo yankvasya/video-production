@@ -13,6 +13,7 @@
 
 .contacts__dropdown-title {
     display: flex;
+    /* width: 190px; */
     justify-content: flex-end;
     color: #FFF;
     text-decoration: underline;

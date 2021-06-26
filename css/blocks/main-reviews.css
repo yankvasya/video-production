@@ -31,37 +31,37 @@
     margin-bottom: 0;
 }
 
-.feedback__header {
+.feedback__person {
     display: flex;
 }
 
-.person-info__name-link {
+.person__name-link {
     margin-top: 32px;
     display: flex;
     align-items: center;
 }
 
-.header__img {
+.person__img {
     margin-right: 22px;
 }
 
-.person-info__social {
+.person__social {
     margin-left: 7px;
 }
 
-.person-info__name {
+.person__name {
     font-weight: bold;
     font-size: 24px;
     line-height: 42px;
     color: #1A1B1E;
 }
 
-.person-info__name:hover {
+.person__name:hover {
     text-decoration-line: underline;
     color: #2E77A4;
 }
 
-.person-info__service {
+.person__service {
     display: inline-flex;
     padding: 10px 25px;
     background: #F2D4C9;

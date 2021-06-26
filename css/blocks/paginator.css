@@ -66,12 +66,12 @@
     justify-content: center;
 }
 
-.paginator__list .paginator__item_active {
+.paginator__list .paginator__item--active {
     border: 16px solid #FF5500;
     border-radius: 100%;
 }
 
-.paginator__list .paginator__item_active:hover {
+.paginator__list .paginator__item--active:hover {
     cursor: default;
 }
 
@@ -87,6 +87,6 @@
     color: #FFF;
 }
 
-.paginator__item-black.paginator__item_active {
+.paginator__item-black.paginator__item--active {
     color: #FFF;
 }

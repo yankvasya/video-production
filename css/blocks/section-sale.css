@@ -6,7 +6,7 @@
     padding: 117px 0 116px 0;
 }
 
-.container .section-sale--title {
+.container .section-sale__title {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -14,6 +14,6 @@
     color: #FFFFFF;
 }
 
-.section-sale--title span {
+.section-sale__title span {
     color: #FF5400;
 }

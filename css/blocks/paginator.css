@@ -79,14 +79,14 @@
     margin: 0 1.9px 0;
 }
 
-.paginator .paginator__item-black {
+.paginator .paginator__item--black {
     color: #000000;
 }
 
-.paginator__list .paginator__item-black:hover {
+.paginator__list .paginator__item--black:hover {
     color: #FFF;
 }
 
-.paginator__item-black.paginator__item--active {
+.paginator__item--black.paginator__item--active {
     color: #FFF;
 }

@@ -33,8 +33,7 @@
     text-decoration-line: underline;
 }
 
-.breadcrumbs__item:after {
-    content: " / ";
+.breadcrumbs__item-line{
     color: #9A9A9A;
 }
 

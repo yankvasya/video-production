@@ -8,10 +8,11 @@
 }
 
 .form__input {
+    outline: none;
     flex: 1;
     margin-right: 28px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
     background: #fff;
     padding: 20px 30px;
     font-style: normal;
@@ -28,6 +29,11 @@
 
 .form__input::placeholder {
     color: #666;
+}
+
+.form__input:focus {
+    border: 1px solid #CCCCCC;
+    /* outline: #CCC; */
 }
 
 .form__input--textarea {

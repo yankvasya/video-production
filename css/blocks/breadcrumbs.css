@@ -4,7 +4,12 @@
     text-align: center;
 }
 
-.breadcrumbs .breadcrumbs__item--active a {
+/* .breadcrumbs .breadcrumbs__item--active a {
+    font-weight: bold;
+    cursor: default;
+} */
+
+.breadcrumbs .breadcrumbs__item:last-child a{
     font-weight: bold;
     cursor: default;
 }
@@ -20,8 +25,15 @@
     padding-bottom: 30px;
 }
 
-.breadcrumbs__item:after {
-    content: " / ";
+.breadcrumbs__item:hover a{
+    text-decoration: none;
+}
+
+.breadcrumbs__item:last-child:hover a{
+    text-decoration-line: underline;
+}
+
+.breadcrumbs__item-line{
     color: #9A9A9A;
 }
 

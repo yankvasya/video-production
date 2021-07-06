@@ -1,0 +1,147 @@
+.form {
+    margin-top: 56px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.form__input {
+    outline: none;
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 20px 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    color: #1A1B1E;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:focus {
+    border: 1px solid #CCCCCC;
+    /* outline: #CCC; */
+}
+
+.form__input--textarea {
+    height: 235px;
+}
+
+.tag {
+    padding: 9px 16px;
+    background: #E7E7E7;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    align-items: center;
+    color: #303030;
+    line-height: 18px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+    background: #F2D4C9;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__controls {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form__controls-title {
+    flex-wrap: nowrap;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+}
+
+.controls {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 74px;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+}
+
+.controls__item:nth-child(7) {
+    display: flex;
+    margin-bottom: 0;
+    justify-self: flex-start;
+    flex: 0.98;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    min-height: 55px;
+    border-radius: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+}
+
+.btn--color--grey {
+    border: 2px solid #8E8E8E;
+    color: #FFFFFF;
+    background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+    border: 2px solid #2B2B2B;
+    cursor: pointer;
+    background: #2B2B2B;
+}
+
+.btn--color--orange {
+    border: 2px solid #FF5500;
+    color: #FFF;
+    background: #FF5500;
+    margin-left: 13px;
+}
+
+.btn--color--orange:hover {
+    background: #fff;
+    color: #FF5500;
+    cursor: pointer;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}

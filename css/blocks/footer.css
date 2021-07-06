@@ -1,6 +1,9 @@
 .footer .container {
-    margin: 45.5px auto 57px;
+    max-height: 132px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 45.5px 0 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.20);
 }

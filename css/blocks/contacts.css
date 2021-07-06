@@ -11,17 +11,20 @@
     font-style: normal;
 }
 
-.contacts .contacts__dropdown-title {
+.contacts__dropdown-title {
+    display: flex;
+    /* width: 190px; */
+    justify-content: flex-end;
     color: #FFF;
     text-decoration: underline;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     text-align: right;
-    margin-top: -2px;
+    margin-top: 2px;
 }
 
-.contacts .contacts__dropdown-title:hover {
+.dropdown:hover .contacts__dropdown-title {
     color: #FF3D00;
     cursor: pointer;
 }

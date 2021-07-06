@@ -2,7 +2,7 @@
     min-height: 416px;
     display: flex;
     flex-direction: column;
-    padding-bottom: px;
+    /* padding-bottom: px; */
 }
 
 .top-line > .container {

@@ -1,0 +1,19 @@
+.section-sale {
+    background: url(/img/reviews__page/sales--bg.jpg) center center/cover no-repeat;
+}
+
+.section-sale .container {
+    padding: 117px 0 116px 0;
+}
+
+.container .section-sale__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.section-sale__title span {
+    color: #FF5400;
+}

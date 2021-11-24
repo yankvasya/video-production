@@ -1,9 +1,9 @@
 .mane-page-wrapper {
-    background: url(/img/bg_head.jpg) center top/contain no-repeat, url(/img/bg_bottom.jpg) center bottom 306px no-repeat;
+    background: url(../../img/bg_bottom.jpg) center top/contain no-repeat, url(../../img/bg_bottom.jpg) center bottom 306px no-repeat;
 }
 
 .services-page-wrapper {
- background: url(/img/services__page/bg.jpg) center top no-repeat;
+ background: url(../../img/services__page/bg.jpg) center top no-repeat;
 }    
 
 /* .reviews-page-wrapper {
